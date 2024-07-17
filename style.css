@@ -9,3 +9,48 @@
     width: 80%;
     margin: auto;
 }
+
+:root{
+    --title-font: 40px;
+    --middle-font: 26px;
+    --middle-color: gray;
+    --desc-color: rgb(183, 171, 171);
+    --desc-size: 14px;
+    --title-color: aril black;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #db3c34;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+header{
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6rem 0;
+}
+
+.benner-info{
+    text-align: center;
+}
+
+.benner-info h2{
+    font-size: var(--title-font);
+    color: white;
+}
+
+.benner-info p{
+    font-size: var(--desc-size);
+    color: var(--desc-color);
+    width: 40%;
+    margin: auto;
+    line-height: 25px;
+    padding: 20px 0px;
+}
